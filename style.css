@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(rgb(6, 17, 36), rgb(11, 63, 68));
+    height: 720px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div {
+    margin-left: 730px;
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    margin-left: 703px;
+    background-color: rgb(86, 86, 139);
+    border-color: rgb(53, 103, 71);
+    border-radius: 40px;
+}
