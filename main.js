@@ -18,5 +18,8 @@ button.addEventListener(`click`, function () {
     } else {
         body.style.background = 'linear-gradient(rgb(6, 17, 36), rgb(11, 63, 68))';
     }
+    if (count == 1000000) {
+        alert('Поздравляю!');
+    }
     counter.innerHTML = count;
 })
