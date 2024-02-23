@@ -1,23 +1,51 @@
 body {
     background: linear-gradient(rgb(6, 17, 36), rgb(11, 63, 68));
-    height: 720px;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    overflow: hidden;
 }
 
 h2 {
-    color: white;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-div {
-    margin-left: 730px;
-    color: white;
+.container,
+#counter,
+#click-me {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    height: 64px;
+}
+
+#counter,
+#click-me {
+    position: absolute;
+}
+
+#counter {
     font-size: 20px;
 }
 
-button {
-    margin-left: 703px;
+#click-me {
     background-color: rgb(86, 86, 139);
-    border-color: rgb(53, 103, 71);
+    border: 2px solid rgb(30, 168, 81);
     border-radius: 40px;
+    bottom: 0;
+}
+
+#click-me:hover {
+    background-color: rgb(105, 105, 184);
+    border: 2px dashed rgb(26, 184, 84);
+}
+
+#click-me:active {
+    background-color: rgb(20, 20, 189);
+    border: 2px dotted rgb(18, 192, 79);
 }
